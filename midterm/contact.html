@@ -1,0 +1,35 @@
+<!DOCTPYE html>
+<html>
+	<head>
+		<title>Contact</title>
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<div class="nav-bar">
+			<a href="index.html" class="nav-bar-item">Home</a>
+			<a href="contact.html" class="nav-bar-item">Contact</a>
+			<a href="about.html" class="nav-bar-item">About</a>
+			<a href="order.html" class="nav-bar-item">Order</a>
+		</div>
+		
+		<h1 class="page-title">Contact</h1>
+		
+		<form action="https://www.stonecoldprofessor.com/pizza-contact.php" method="post">
+			<label for="first-name">First name: </label><br>
+			<input type="text" id="first-name" name="first-name"><br>
+			
+			<label for="last-name">Last name: </label><br>
+			<input type="text" id="last-name" name="last-name"><br>
+			
+			<label for="email">Email address: </label><br>
+			<input type="text" id="email" name="email"><br>
+			
+			<label for="message">Message: </label><br>
+			<textarea rows="10" cols="30" id="message" name="message">Please write your message here for our team to review.</textarea><br>
+			
+			<button type="reset">Clear</button>
+			<button type="submit">Send</button><br>
+		</form>
+	</body>
+</html>

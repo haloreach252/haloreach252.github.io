@@ -1,0 +1,66 @@
+@font-face {
+	font-family: witch-magic;
+	src: url('../fonts/Witch Magic.otf');
+}
+
+html {
+	font-family: witch-magic;
+}
+
+body {
+	background-color: #FF6700 ;
+}
+
+.nav-bar {
+	width: 100%;
+	height: 45px;
+	border: 1px solid black;
+}
+
+.nav-bar-item {
+	margin: auto;
+	font-size: 24pt;
+	padding-left: 10px;
+}
+
+.topping-img {
+	width: 200px;
+	height: 200px;
+}
+
+.topping-grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	
+}
+
+.topping-grid-item {
+	display: grid;
+}
+
+.page-title {
+	text-decoration: underline;
+}
+
+.form-border {
+	border: 2px dashed red;
+	padding: 0px 10px 10px 10px;
+}
+
+.form-horizontal-parent {
+	width: 100%;
+	height: 125px;
+}
+
+.form-horizontal-child {
+	margin: auto;
+	padding-left: 10px;
+	float: left;
+}
+
+.form-button {
+	width: 320px;
+	height: 60px;
+	background-color: black;
+	color: orange;
+}
